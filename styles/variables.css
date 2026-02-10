@@ -1,0 +1,79 @@
+:root {
+    /* Colors */
+    --primary-color: #2563eb;
+    /* Vibrant Blue */
+    --primary-hover: #1d4ed8;
+    --secondary-color: #64748b;
+    --accent-color: #0ea5e9;
+    /* Sky Blue */
+
+    /* Light Mode Defaults */
+    --bg-color: #ffffff;
+    --bg-secondary: #f8fafc;
+    --text-color: #0f172a;
+    --text-secondary: #475569;
+    --border-color: #e2e8f0;
+    --card-bg: rgba(255, 255, 255, 0.8);
+    --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+
+    /* Fonts */
+    --font-primary: 'Inter', sans-serif;
+    --font-secondary: 'Roboto', sans-serif;
+    --font-mono: 'Fira Code', monospace;
+
+    /* Spacing */
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 2rem;
+    --spacing-xl: 4rem;
+
+    /* Transitions */
+    --transition-speed: 0.3s;
+}
+
+[data-theme="dark"] {
+    --bg-color: #0f172a;
+    --bg-secondary: #1e293b;
+    --text-color: #f1f5f9;
+    --text-secondary: #94a3b8;
+    --border-color: #334155;
+    --card-bg: rgba(30, 41, 59, 0.8);
+    --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+}
+
+[data-font="playfair"] {
+    --font-primary: 'Playfair Display', serif;
+}
+
+[data-font="poppins"] {
+    --font-primary: 'Poppins', sans-serif;
+}
+
+[data-font="roboto"] {
+    --font-primary: 'Roboto', sans-serif;
+}
+
+[data-font="lato"] {
+    --font-primary: 'Lato', sans-serif;
+}
+
+[data-font="montserrat"] {
+    --font-primary: 'Montserrat', sans-serif;
+}
+
+[data-font="opensans"] {
+    --font-primary: 'Open Sans', sans-serif;
+}
+
+[data-font="raleway"] {
+    --font-primary: 'Raleway', sans-serif;
+}
+
+[data-font="merriweather"] {
+    --font-primary: 'Merriweather', serif;
+}
+
+[data-font="oswald"] {
+    --font-primary: 'Oswald', sans-serif;
+}

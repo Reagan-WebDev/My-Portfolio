@@ -15,6 +15,23 @@ body {
     transition: background var(--transition-speed), color var(--transition-speed);
 }
 
+.home-page {
+    background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.9)), url('../assets/background1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    transition: background 0.5s ease;
+}
+
+[data-theme="dark"] .home-page {
+    background: linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.9)), url('../assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
 a {
     text-decoration: none;
     color: inherit;
